@@ -395,15 +395,15 @@ h2 {
 
 .event-content {
     width: 100%;
-    background-position: center bottom;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 70px 70px 110px 30%;
+    padding: 70px 70px 110px 33%;
 }
 
 .event-button{
-    padding-top: 12%;
-    padding-left:38%;
+    padding-top: 15%;
+    padding-left:40%;
     padding-bottom:3%;
 }
 
@@ -659,6 +659,8 @@ h2 {
     width: 100%;
     left: 0;
     top: 0;
+    padding-left:10%;
+    padding-top: 4%;
 }
 
 #contact .container {
@@ -674,7 +676,10 @@ h2 {
     font-size: 16px;
 }
 #contact-section h3 {  
-    margin-bottom: 25px
+    padding-top: 2.7%;
+    margin-bottom: 25px;
+    color:white;
+    font-size: 26px;
 }
 
 #contact address {
