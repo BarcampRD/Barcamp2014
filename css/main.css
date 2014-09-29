@@ -393,6 +393,20 @@ h2 {
     background-repeat: no-repeat;
 }
 
+.event-content {
+    width: 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 70px 110px 30%;
+}
+
+.event-button{
+    padding-top: 12%;
+    padding-left:38%;
+    padding-bottom:3%;
+}
+
 #event h1{
     color: #182b66;
     font-size: 30px;
@@ -456,7 +470,7 @@ h2 {
 **************************/
 
 #acercaDe {
-    background-color: #4ec3f5;
+    background-color: #ffffff;
     color: black;
     position: relative;  
     width: 100%;
