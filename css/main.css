@@ -103,10 +103,10 @@ h2 {
 
 .navbar-brand {
     background-color: #0479bd;
-    height: 90px;
+    height: 70px;
     margin-bottom: 20px;
     position: relative;
-    width: 297px;
+    width: 250px;
 }
 
 .navbar-brand img {
@@ -116,12 +116,12 @@ h2 {
 
 .navbar-right {
     background-color: #0479bd;
-    padding:0 95px 0 0;
+    padding:0 0 0 0;
     opacity: .9
 }
 
 .navbar-right li a {
-    padding: 35px 21px;
+    padding: 25px 21px;
     font-size: 22px;
     color: #fff;
     text-transform: uppercase;
@@ -192,8 +192,8 @@ h2 {
     bottom: 14%;
     float: left;
     left: 0;
-    opacity: 0.8;
-    padding:10px 60px 35px;
+    opacity: 0.95;
+    padding:10px 20px 35px;
     right: inherit;
     text-transform: uppercase;
     color: #fff;
@@ -350,11 +350,16 @@ h2 {
     width: 1px;
 }
 
+.charlistasP{
+    font-size: 10px;
+}
+
 .cart {
     background-color: #028cd1;  
     position: absolute;
     right:-200px;
     top: 37%;
+    height: 72px;
     width:252px;
     -webkit-transition: all 0.7s ease-in-out;
     -moz-transition: all 0.7s ease-in-out;
@@ -501,6 +506,12 @@ h2 {
     margin-bottom: 23px;
 }
 
+.about-content h1{
+    font-size: 42px;
+    padding-left: 3%;
+    color: #145d82;
+}
+
 .about-content h2{
     padding-left: 3%;
     color: #145d82;
@@ -530,6 +541,44 @@ h2 {
 }
 
 
+/*************************
+*******Sesiones CSS*******
+**************************/
+#sesiones {
+    background-color: #ed6d5c;
+    color: black;
+    position: relative;  
+    width: 100%;
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#sesiones hr{
+    width: 95%;
+    color: #910000;
+}
+
+#sesiones p{
+    color: #7d2e2e;
+}
+
+#sesiones a{
+    color: #272121;
+}
+
+#sesiones h1{
+    color: #600000;
+}
+
+#sesiones h2{
+    color: #910000;
+}
+
+#sesiones h3{
+    color: #1F1F1F;
+    
+}
 
 /*************************
 ******Participa CSS*******
