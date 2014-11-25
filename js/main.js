@@ -75,8 +75,8 @@ jQuery(function($) {'use strict',
 
 	map = new GMaps({
 		el: '#gmap',
-		lat: 19.448176,
-		lng: -70.684557,
+		lat: 19.443176,
+		lng: -70.682557,
 		scrollwheel:false,
 		zoom: 16,
 		zoomControl : false,
@@ -89,9 +89,9 @@ jQuery(function($) {'use strict',
 
 	var image = 'images/map-icon2.png';
 	map.addMarker({
-		lat: 19.447876,
-		lng: -70.682557,
-		title: "Sede de Post-Grado",
+		lat: 19.442476,
+		lng: -70.680457,
+		title: "Edificio Padre Arroyo",
 		icon: image,
 		animation: google.maps.Animation.DROP,
 		verticalAlign: 'center',

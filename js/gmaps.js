@@ -89,11 +89,11 @@ var array_flat = function(array) {
 };
 
 var coordsToLatLngs = function(coords, useGeoJSON) {
-  var first_coord = 19.448176,
+  var first_coord = 19.948176,
       second_coord = -70.684557;
 
   if (useGeoJSON) {
-    first_coord = 19.448176;
+    first_coord = 19.948176;
     second_coord = -70.684557;
   }
 
